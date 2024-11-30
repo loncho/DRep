@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "God BLESS You"
+    },
+    "motivations": {
+      "@value": "I want the best for the Cardano network and the community, that's why I want to be a DRep, about my professional experience, I am a systems engineer and I also studied at the Cisco Academy, from which I graduated, I have been in the crypto ecosystem for more than 10 years, I am also the operator of the God BLESS You pool of the Cardano network for more than 4 years, I have extensive technical knowledge in many things regarding cryptocurrencies, and my professional career, I am also a Cardano Ambassador for several years, and I am also a Youtuber."
+    },
+    "objectives": {
+      "@value": "I'm Edickson, I've been in Cardano for years since it started, I've dedicated my life to this ecosystem, today I'm running as DRep because I'm not going to allow people with bad intentions to ruin Cardano, although not all of them are bad, it must be clear that there are bad actors everywhere, so that's why I'm running because I want the best for Cardano and the community to which I have dedicated a large part of my life."
+    },
+    "paymentAddress": {
+      "@value": "addr1q9gvpxk3y5mftesc89j2vs3f54rwjdg5ggs9xemeuq99jse0l8tmcv0zmz75rqsfk8muc7zsn7nc336gy889xqu6r47s32kx9s"
+    },
+    "qualifications": {
+      "@value": "BLESS Pool Operator, Youtuber, Systems Engineer, Cardano Ambassador, Catalys reviewer, and highly engaged with the Cardano community."
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "official account on X"
+        },
+        "uri": {
+          "@value": "https://x.com/SirEdickson23"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Official website of the BLESS pool"
+        },
+        "uri": {
+          "@value": "https://sites.google.com/view/poolblessvenezuela/p%C3%A1gina-principal"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Official Telegram Group of the BLESS Pool"
+        },
+        "uri": {
+          "@value": "https://t.me/PoolBless"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "official account on X"
+        },
+        "uri": {
+          "@value": "https://x.com/SirEdickson23"
+        }
+      }
+    ]
+  }
+}
